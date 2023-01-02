@@ -13,6 +13,8 @@ for (let i = 0 ; i<combinedArray.length;i++){
     finalArray.push(count +""+element)
 }
 finalArray = removeDuplicate(finalArray);
+finalArray = finalArray.toString();
+finalArray = finalArray.replace(/,/g,'');
 console.log(finalArray)
 function removeDuplicate(array){
     const finalArray = []
