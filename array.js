@@ -14,7 +14,6 @@ for (let i = 0 ; i<combinedArray.length;i++){
 }
 finalArray = removeDuplicate(finalArray);
 finalArray = finalArray.toString().replace(/,/g,'');
-finalArray = finalArray;
 console.log(finalArray)
 function removeDuplicate(array){
     const finalArray = []
